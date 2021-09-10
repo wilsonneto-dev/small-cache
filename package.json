@@ -1,0 +1,34 @@
+{
+  "name": "small-cache",
+  "version": "0.1.0",
+  "description": "The easiest and simplest way to add powerful cache to your frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonneto-dev/ez-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "api",
+    "cache",
+    "caching",
+    "cache",
+    "layer",
+    "axios",
+    "cache",
+    "fetch",
+    "cache"
+  ],
+  "author": "Wilson Neto (wilsonneto-dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilsonneto-dev/ez-cache/issues"
+  },
+  "homepage": "https://github.com/wilsonneto-dev/ez-cache#readme",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
