@@ -26,7 +26,7 @@
     "frontend"
   ],
   "author": "Wilson Neto (wilsonneto-dev)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wilsonneto-dev/small-cache/issues"
   },
