@@ -35,4 +35,5 @@ You can also control the cache TTL (Time to Live) or disable caching using a thi
 
 ---
 
-And yes, that's all! Life can be simple sometimes ✨
+And yes, that's all! 
+Life can be simple sometimes ✨
