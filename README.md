@@ -35,5 +35,5 @@ You can also control the cache TTL (Time to Live) or disable caching using a thi
 
 ---
 
-And yes, that's all! 
+And yes, that's all! <br />
 Life can be simple sometimes ✨
