@@ -70,8 +70,8 @@ const getFromCache = async <T>(
   fetchFunction: () => Promise<T>,
   options: Partial<ICacheOptions> | null = null
 ): Promise<T> => {
-  const defaultTtlTime15minutes = 15 * 60;
-  const defaultOptions = { enabled: true, TTL_InSeconds: defaultTtlTime15minutes };
+  const defaultTTTL_Time15minutes = 15 * 60;
+  const defaultOptions = { enabled: true, TTL_InSeconds: defaultTTTL_Time15minutes };
   const finalOptions: ICacheOptions = { ...defaultOptions, ...options };
 
   if (!sessionStorage || !finalOptions.enabled) return await fetchFunction();
