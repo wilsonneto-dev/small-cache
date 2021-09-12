@@ -1,6 +1,6 @@
 # Small Cache
 
-🎈 The simplest, easiest, and most minimalist way 😃 to cache your requests on your frontend (JS/TS, with React.js, Vue.js, Angular, and all others)
+🎈 The simplest, easiest, and most minimalist way 😃 to cache your requests on your frontend (JS/TS, with React.js, Next.js, Vue.js, Angular, and all others)
 
 It's as easy as this:
 ```ts
