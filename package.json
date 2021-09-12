@@ -1,14 +1,14 @@
 {
   "name": "small-cache",
-  "version": "0.1.0",
-  "description": "The easiest and simplest way to add powerful cache to your frontend",
+  "version": "1.0.0",
+  "description": "Small Cache - The simplest, easiest, and most minimalist way to cache your requests on your frontend (JS/TS)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wilsonneto-dev/ez-cache.git"
+    "url": "git+https://github.com/wilsonneto-dev/small-cache.git"
   },
   "keywords": [
     "cache",
@@ -20,14 +20,17 @@
     "axios",
     "cache",
     "fetch",
-    "cache"
+    "cache",
+    "javascrit",
+    "typescript",
+    "frontend"
   ],
   "author": "Wilson Neto (wilsonneto-dev)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wilsonneto-dev/ez-cache/issues"
+    "url": "https://github.com/wilsonneto-dev/small-cache/issues"
   },
-  "homepage": "https://github.com/wilsonneto-dev/ez-cache#readme",
+  "homepage": "https://github.com/wilsonneto-dev/small-cache#readme",
   "devDependencies": {
     "typescript": "^4.4.2"
   }
