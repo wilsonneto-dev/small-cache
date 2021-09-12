@@ -68,17 +68,19 @@ interface ICacheOptions {
 const getFromCache = async <T>(
   key: string,
   fetchFunction: () => Promise<T>,
-  options: ICacheOptions | null = null
+  options: Partial<ICacheOptions> | null = null
 ): Promise<T> => {
-  if (!options) options = { enabled: true, TTL_InSeconds: 15 * 60 };
+  const defaultTtlTime15minutes = 15 * 60;
+  const defaultOptions = { enabled: true, TTL_InSeconds: defaultTtlTime15minutes };
+  const finalOptions: ICacheOptions = { ...defaultOptions, ...options };
 
-  if (!sessionStorage || !options.enabled) return await fetchFunction();
+  if (!sessionStorage || !finalOptions.enabled) return await fetchFunction();
 
   const cachedData = readFromCacheWithTTL<T>(key);
   if (cachedData) return cachedData;
 
   const freshData = await fetchFunction();
-  writeToCacheWithTTL(key, freshData, options.TTL_InSeconds);
+  writeToCacheWithTTL(key, freshData, finalOptions.TTL_InSeconds);
   return freshData;
 };
 
