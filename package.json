@@ -4,7 +4,7 @@
   "description": "Small Cache - The simplest, easiest, and most minimalist way to cache your requests on your frontend (JS/TS)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci": "tsc"
   },
   "repository": {
     "type": "git",
