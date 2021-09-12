@@ -2,7 +2,19 @@
 
 🎈 The simplest, easiest, and most minimalist way 😃 to cache your requests on your frontend (JS/TS, with React.js, Next.js, Vue.js, Angular, and all others)
 
-It's as easy as this:
+Install it in your project:
+```console
+npm i small-cache
+# or
+yarn add small-cache
+```
+
+Import in your project:
+```js
+import { getFromCache } from 'small-cache'
+```
+
+Then use it as easy as this:
 ```ts
 const creatorsListData = await getFromCache(
   'creators', // cache key
