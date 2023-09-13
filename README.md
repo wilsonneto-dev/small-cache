@@ -37,7 +37,7 @@ You can also control the cache TTL (Time to Live) or disable caching using a thi
 ```ts
 const creatorsListData = await getFromCache(
   'creators', // cache key
-  async () => await creatorsService.get() // the fetch data function,
+  async () => await creatorsService.get(), // the fetch data function,
   { // options parameter
     TTL_InSeconds: 60, // cache TTL (time to expire in seconds)
     enabled: true // enable or disable the caching
